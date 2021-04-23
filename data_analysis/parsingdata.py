@@ -72,7 +72,7 @@ pm25_time_list = pm25_df['hour'].values.tolist()
 pm25_value_list = pm25_df['pm2.5'].values.tolist()
 
 #plt.bar(pm25_time_list, pm25_value_list)
-plt.plt(pm25_time_list, pm25_value_list, marker='o')
+plt.plot(pm25_time_list, pm25_value_list, marker='o')
 plt.show()
 
 #result = pm25_df.groupby(pd.Grouper(freq='H'))['pm2.5']
