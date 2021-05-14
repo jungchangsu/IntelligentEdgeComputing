@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.arima_model import ARIMA
 # heaer=None: 컬럼 이름이 없는 경우, header=0: 첫번째 행이 컬럼 이름인 경우
-series = pd.read_csv('../../data/market-price.csv', header=0, index_col=0, squeeze=True)
+series = pd.read_csv('market-price.csv', header=0, index_col=0, squeeze=True)
 series.plot()
 '''
 plt.title("Blockchain Price")
